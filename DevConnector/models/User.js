@@ -23,6 +23,8 @@ const UserSchema = new mongoose.Schema({
   },
 });
 
-User = mongoose.model("user", UserSchema);
+// because of this line we can use the ref
+// in the Schema creation in Profile.js
+const User = mongoose.model("user", UserSchema);
 
 module.exports = User;
