@@ -1,0 +1,5 @@
+{
+  "mongoURI": "mongodb+srv://lior123:lior123@devconnector.8ra0fgy.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubToken": "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"
+}
